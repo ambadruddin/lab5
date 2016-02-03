@@ -61,5 +61,8 @@ void run_tests()
 }
 
 int main() {
-    run_tests();
+    Vector2d vec(3, 2);
+    int myVariable = vec.get_x();
+    cout << myVariable;
+    // run_tests();
 }
